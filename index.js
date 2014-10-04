@@ -5,14 +5,22 @@
  * Licensed under the MIT License
  */
 
-module.exports = function eachStringIndex(str, line) {
-  var num = 0, i = -1; arr = [];
+'use strict';
+
+module.exports = function eachStringIndex(pattern, str) {
+  if (pattern == null) {
+    return [];
+  }
+  var arr = [];
+  var num = 0;
+  var i = -1;
+
   while (num !== -1) {
-    num = line.indexOf(str, i + 1);
+    num = str.indexOf(pattern, i + 1);
     if (i !== -1) {
       arr.push(i);
     }
     i = num;
   }
   return arr;
-}
+};

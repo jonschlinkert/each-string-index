@@ -6,7 +6,7 @@
  */
 
 var assert = require('assert');
-var each = require('../');
+var each = require('./');
 
 describe('eachStringIndex:', function () {
   it('should get the index for each occurrence.', function () {
