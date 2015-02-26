@@ -1,8 +1,8 @@
 /*!
  * each-string-index <https://github.com/jonschlinkert/each-string-index>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
- * Licensed under the MIT License
+ * Copyright (c) 2014-2015, Jon Schlinkert.
+ * Licensed under the MIT License.
  */
 
 var assert = require('assert');
