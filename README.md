@@ -14,8 +14,8 @@ npm i each-string-index --save
 var each = require('each-string-index');
 
 eachIndex('b', 'a b c d b e b f');
-//=> [0, 2, 8, 12]
-//
+//=> [2, 8, 12]
+
 eachIndex('b', 'bb c d b e b f');
 //=> [0, 1, 7, 11]
 ```
