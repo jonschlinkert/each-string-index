@@ -7,20 +7,13 @@
 
 'use strict';
 
-module.exports = function eachStringIndex(ch, str) {
-  if (ch == null) {
-    return [];
-  }
+module.exports = function eachStringIdx(ch, str) {
+  var i = str.indexOf(ch);
   var arr = [];
-  var num = 0;
-  var i = -1;
 
-  while (num !== -1) {
-    num = str.indexOf(ch, i + 1);
-    if (i !== -1) {
-      arr.push(i);
-    }
-    i = num;
+  while (i !== -1) {
+    arr.push(i);
+    i = str.indexOf(ch, i + 1);
   }
   return arr;
 };

@@ -1,10 +1,4 @@
-/*!
- * each-string-index <https://github.com/jonschlinkert/each-string-index>
- *
- * Copyright (c) 2014-2015, Jon Schlinkert.
- * Licensed under the MIT License.
- */
-
+/* deps: mocha */
 var assert = require('assert');
 var each = require('./');
 
