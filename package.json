@@ -1,23 +1,14 @@
 {
   "name": "each-string-index",
   "description": "Get the index for each occurrence of a string, in a string. Much faster than regex, and useful for doing simple find and replace operations for specific strings.",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "homepage": "https://github.com/jonschlinkert/each-string-index",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/each-string-index.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/each-string-index",
   "bugs": {
     "url": "https://github.com/jonschlinkert/each-string-index/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/each-string-index/blob/master/LICENSE"
-  },
+  "license": "MIT",
   "files": [
     "index.js"
   ],
@@ -32,19 +23,24 @@
     "mocha": "*"
   },
   "keywords": [
+    "detect",
     "each",
-    "expression",
-    "file",
     "find",
+    "idx",
     "index",
-    "locate",
     "match",
     "matches",
     "num",
     "number",
-    "pattern",
-    "regular",
     "search",
     "string"
-  ]
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "repeat-string",
+        "word-wrap"
+      ]
+    }
+  }
 }
